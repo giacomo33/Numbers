@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{F681C5CC-15A9-4A94-BCDA-8FC97FFED5B4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Numbers</RootNamespace>
-    <AssemblyName>Numbers</AssemblyName>
+    <RootNamespace>Sum</RootNamespace>
+    <AssemblyName>Sum</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExtendedEnumerableRange.cs" />
+    <Compile Include="Helper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
